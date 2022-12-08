@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+
 import com.thymeleafspringbootapplication.model.Employee;
 import com.thymeleafspringbootapplication.service.EmployeeService;
 
@@ -41,6 +43,12 @@ public class EmployeeController {
 		Employee employee = employeeService.getEmployeeById(id);
 		model.addAttribute("employee", employee);
 		return "update_employee";
+	}
+	
+	@GetMapping("/deleteEmployee/{id}")
+	public String deleteEmployee(@PathVariable (value = "id") long id) {
+		this.employeeService.deleteEmployeeById(id);
+		return "redirect:/";
 	}
 
 }
