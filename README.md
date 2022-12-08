@@ -1,10 +1,8 @@
-# $$\textcolor{red}{\text{UNDER CONSTRUCTION}}$$
-
 # Project Title:
 
-Employee Management System
+Employee Management (CRUD) System
 
-## 1. What is the project?
+## 1. Project Description:
 
 A Spring MVC web application for Employee Information Management with the following CRUD operations:
 
@@ -12,6 +10,8 @@ A Spring MVC web application for Employee Information Management with the follow
 - Add a new employee
 - Update an employee
 - Delete an employee
+
+
 
 ## 2. Tech Stack:
 
@@ -24,14 +24,60 @@ A Spring MVC web application for Employee Information Management with the follow
 - Maven 
 - MySql database
 
-## 3. What is the MVP?
-The minimal viable product is a Spring MVC web application for Employee Information Management that renders in a web browsers, which allows the user to manipulate employee data.
 
-## 4. What are the sprinkles? 
-The sprinkles for this project is an improved styling of the Employee Management System's Graphical User Interface.
 
-## 5. When will the project be complete? 
-The project will be complete once all the MVP features have been implemented and the Employee Management System's Graphical User Interface has been styled.
+## 3. Installing:
+
+i. Clone the git repo
+
+```
+https://github.com/AAdewunmi/SpringBoot-Employee-Management-System.git
+```
+
+ii. Open project folder
+
+iii. Explore
+
+
+
+## 4. How To Use:
+
+i. Create Database -> demo
+
+ii. Open project in preferred IDE (I used SpringToolsSuite4) 
+
+iii. Run project as Spring Boot App
+
+iv. Hibernate will automatically create a table -> employee
+
+v. Add sample data to table using MySQL Workbench Client
+
+vi. Open web app at localhost: 8080/
+
+vii. Add, Update and Delete records from web app 
+
+Have fun
+
+😎 
+
+
+
+## 5. Demo:
+
+### - All Employee UI
+
+![This is an image](src/main/java/images/main_creenshot.png)
+
+### - Add Employee UI
+
+![This is an image](src/main/java/images/add_creenshot.png)
+
+### - Update UI
+
+![This is an image](src/main/java/images/update_creenshot.png)
+
+
+
 
 ## 6. Original Creator:
 
