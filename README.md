@@ -17,6 +17,8 @@ A Spring MVC web application for Employee Information Management with the follow
 
 - Java 17
 - Spring Boot
+- HTML
+- Bootstrap
 - Thymeleaf
 - Spring MVC
 - Spring Data JPA
